@@ -3,11 +3,11 @@
   <title>口口|口口|</title>
   
   <subtitle>hello Kitty</subtitle>
-  <link href="https://shenchuanhuan.github.io/atom.xml" rel="self"/>
+  <link href="https://shenchuanhuan.github.io/blog/atom.xml" rel="self"/>
   
-  <link href="https://shenchuanhuan.github.io/"/>
-  <updated>2020-12-31T03:20:45.221Z</updated>
-  <id>https://shenchuanhuan.github.io/</id>
+  <link href="https://shenchuanhuan.github.io/blog/"/>
+  <updated>2021-01-04T06:31:30.352Z</updated>
+  <id>https://shenchuanhuan.github.io/blog/</id>
   
   <author>
     <name>chan</name>
@@ -17,35 +17,48 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test</title>
-    <link href="https://shenchuanhuan.github.io/2020-12-29/test"/>
-    <id>https://shenchuanhuan.github.io/2020-12-29/test</id>
-    <published>2020-12-29T07:57:37.000Z</published>
-    <updated>2020-12-31T03:20:45.221Z</updated>
+    <title>Hello 2021</title>
+    <link href="https://shenchuanhuan.github.io/blog/%E7%B5%AE%E7%B5%AE%E5%8F%A8%E5%8F%A8/hello-2021/"/>
+    <id>https://shenchuanhuan.github.io/blog/%E7%B5%AE%E7%B5%AE%E5%8F%A8%E5%8F%A8/hello-2021/</id>
+    <published>2020-12-31T10:22:51.000Z</published>
+    <updated>2021-01-04T06:31:30.352Z</updated>
+    
+    <content type="html"><![CDATA[<p>记于2020年12月31日周五下午6点44分。<br>今天是2020年的最后一天，今天过去了，也就意味着庚子年过去了，新冠起源年过去了。<br>明年的FLAG已经立好了，希望来年能够坚持一两个flag不倒吧。</p><a id="more"></a><p>再见，2020！<br>你好，2021！</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;记于2020年12月31日周五下午6点44分。&lt;br&gt;今天是2020年的最后一天，今天过去了，也就意味着庚子年过去了，新冠起源年过去了。&lt;br&gt;明年的FLAG已经立好了，希望来年能够坚持一两个flag不倒吧。&lt;/p&gt;</summary>
     
     
     
+    <category term="絮絮叨叨" scheme="https://shenchuanhuan.github.io/blog/categories/%E7%B5%AE%E7%B5%AE%E5%8F%A8%E5%8F%A8/"/>
     
+    
+    <category term="随笔" scheme="https://shenchuanhuan.github.io/blog/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+    <category term="生活" scheme="https://shenchuanhuan.github.io/blog/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="辞旧迎新" scheme="https://shenchuanhuan.github.io/blog/tags/%E8%BE%9E%E6%97%A7%E8%BF%8E%E6%96%B0/"/>
     
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://shenchuanhuan.github.io/2020-12-29/hello-world"/>
-    <id>https://shenchuanhuan.github.io/2020-12-29/hello-world</id>
-    <published>2020-12-29T07:42:46.841Z</published>
-    <updated>2020-12-29T07:42:46.841Z</updated>
+    <title>Getting Started with Icarus</title>
+    <link href="https://shenchuanhuan.github.io/blog/uncategorized/getting-started-with-icarus/"/>
+    <id>https://shenchuanhuan.github.io/blog/uncategorized/getting-started-with-icarus/</id>
+    <published>2020-03-31T16:00:00.000Z</published>
+    <updated>2021-01-04T06:33:22.429Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Welcome to the Icarus documentation site!<br>Icarus is a simple, delicate, and modern theme for the static site generator Hexo.<br>It strives to be elegant in design while simple and straightforward to use.<br>Its versatile and flexible configuration system enables power users lay out their sites to the finest details.<br>Icarus also offers a wide range of plugins and widgets to meet your various customization and optimization<br>needs.<br>Moreover, its refreshed implementation enables better IDE support and third-party integration, which<br>open to a sea of improvement possibilities.</p><a id="more"></a><p> Download the source code tarball from the GitHub and extract it to your Hexo site’s theme<br>  directory.<br>  Alternatively, you can use Git to clone the Icarus repository to the <code>themes</code> directory:</p>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
+    <summary type="html">&lt;p&gt;Welcome to the Icarus documentation site!&lt;br&gt;Icarus is a simple, delicate, and modern theme for the static site generator Hexo.&lt;br&gt;It strives to be elegant in design while simple and straightforward to use.&lt;br&gt;Its versatile and flexible configuration system enables power users lay out their sites to the finest details.&lt;br&gt;Icarus also offers a wide range of plugins and widgets to meet your various customization and optimization&lt;br&gt;needs.&lt;br&gt;Moreover, its refreshed implementation enables better IDE support and third-party integration, which&lt;br&gt;open to a sea of improvement possibilities.&lt;/p&gt;</summary>
     
     
     
+    
+    <category term="Getting Started" scheme="https://shenchuanhuan.github.io/blog/tags/Getting-Started/"/>
+    
+    <category term="Icarus User Guide" scheme="https://shenchuanhuan.github.io/blog/tags/Icarus-User-Guide/"/>
     
   </entry>
   
