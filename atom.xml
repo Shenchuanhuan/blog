@@ -6,7 +6,7 @@
   <link href="https://shenchuanhuan.github.io/blog/atom.xml" rel="self"/>
   
   <link href="https://shenchuanhuan.github.io/blog/"/>
-  <updated>2021-01-04T06:31:30.352Z</updated>
+  <updated>2021-01-05T06:16:54.626Z</updated>
   <id>https://shenchuanhuan.github.io/blog/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>记录hexo+icarus主题搭建博客遇到的问题</title>
+    <link href="https://shenchuanhuan.github.io/blog/%E6%97%A5%E5%B8%B8%E6%8D%A3%E9%BC%93/%E8%AE%B0%E5%BD%95hexo-icarus%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>https://shenchuanhuan.github.io/blog/%E6%97%A5%E5%B8%B8%E6%8D%A3%E9%BC%93/%E8%AE%B0%E5%BD%95hexo-icarus%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</id>
+    <published>2021-01-05T02:37:05.000Z</published>
+    <updated>2021-01-05T06:16:54.626Z</updated>
+    
+    <content type="html"><![CDATA[<p>Q1: 文章配置封面图和缩略图不展示</p><blockquote><p>通过cover和thumbnail可以分别配置封面图和最近文章模块里的缩略图。这两个的值是一个以 <code>/</code> 开头的（绝对路径）图片所在位置路径。<br>不展示是由错误的图片路径设置导致的。正确的图片路径应该是：<code>/img/****</code>，对应到文件夹内，应该是 <code>/public/img</code>文件夹。<br>why: 服务器上部署的博客根目录就是<code>hexo generator</code>生成的<code>public</code>文件夹。也可以直接在浏览器地址栏输入图片路径，通过图片是否能够显示来检测路径是否正确。</p></blockquote><p>Q2: 在博客首页点击某篇文章标题，没有跳转到文章详情页跳转而是下载了该篇文章</p><blockquote><p>这是因为链接地址配置不正确(配置文件：<code>_config.yml</code>)<br>错误的配置: <code>permalink: :category/:post_title</code><br>正确的配置: <code>permalink: :category/:post_title/</code><br>关键点在于有没有最后的<code>/</code><br>为什么是:category、:post_title?这些是hexo里的变量，<a href="https://hexo.io/zh-cn/docs/permalinks">详情看这里</a></p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Q1: 文章配置封面图和缩略图不展示&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;通过cover和thumbnail可以分别配置封面图和最近文章模块里的缩略图。这两个的值是一个以 &lt;code&gt;/&lt;/code&gt; 开头的（绝对路径）图片所在位置路径。&lt;br&gt;不展示是由错误的图片路</summary>
+      
+    
+    
+    
+    <category term="日常捣鼓" scheme="https://shenchuanhuan.github.io/blog/categories/%E6%97%A5%E5%B8%B8%E6%8D%A3%E9%BC%93/"/>
+    
+    
+    <category term="blog" scheme="https://shenchuanhuan.github.io/blog/tags/blog/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello 2021</title>
     <link href="https://shenchuanhuan.github.io/blog/%E7%B5%AE%E7%B5%AE%E5%8F%A8%E5%8F%A8/hello-2021/"/>
     <id>https://shenchuanhuan.github.io/blog/%E7%B5%AE%E7%B5%AE%E5%8F%A8%E5%8F%A8/hello-2021/</id>
     <published>2020-12-31T10:22:51.000Z</published>
-    <updated>2021-01-04T06:31:30.352Z</updated>
+    <updated>2021-01-04T11:33:20.338Z</updated>
     
     <content type="html"><![CDATA[<p>记于2020年12月31日周五下午6点44分。<br>今天是2020年的最后一天，今天过去了，也就意味着庚子年过去了，新冠起源年过去了。<br>明年的FLAG已经立好了，希望来年能够坚持一两个flag不倒吧。</p><a id="more"></a><p>再见，2020！<br>你好，2021！</p>]]></content>
     
@@ -38,27 +64,6 @@
     <category term="生活" scheme="https://shenchuanhuan.github.io/blog/tags/%E7%94%9F%E6%B4%BB/"/>
     
     <category term="辞旧迎新" scheme="https://shenchuanhuan.github.io/blog/tags/%E8%BE%9E%E6%97%A7%E8%BF%8E%E6%96%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Getting Started with Icarus</title>
-    <link href="https://shenchuanhuan.github.io/blog/uncategorized/getting-started-with-icarus/"/>
-    <id>https://shenchuanhuan.github.io/blog/uncategorized/getting-started-with-icarus/</id>
-    <published>2020-03-31T16:00:00.000Z</published>
-    <updated>2021-01-04T06:33:22.429Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to the Icarus documentation site!<br>Icarus is a simple, delicate, and modern theme for the static site generator Hexo.<br>It strives to be elegant in design while simple and straightforward to use.<br>Its versatile and flexible configuration system enables power users lay out their sites to the finest details.<br>Icarus also offers a wide range of plugins and widgets to meet your various customization and optimization<br>needs.<br>Moreover, its refreshed implementation enables better IDE support and third-party integration, which<br>open to a sea of improvement possibilities.</p><a id="more"></a><p> Download the source code tarball from the GitHub and extract it to your Hexo site’s theme<br>  directory.<br>  Alternatively, you can use Git to clone the Icarus repository to the <code>themes</code> directory:</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;Welcome to the Icarus documentation site!&lt;br&gt;Icarus is a simple, delicate, and modern theme for the static site generator Hexo.&lt;br&gt;It strives to be elegant in design while simple and straightforward to use.&lt;br&gt;Its versatile and flexible configuration system enables power users lay out their sites to the finest details.&lt;br&gt;Icarus also offers a wide range of plugins and widgets to meet your various customization and optimization&lt;br&gt;needs.&lt;br&gt;Moreover, its refreshed implementation enables better IDE support and third-party integration, which&lt;br&gt;open to a sea of improvement possibilities.&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="Getting Started" scheme="https://shenchuanhuan.github.io/blog/tags/Getting-Started/"/>
-    
-    <category term="Icarus User Guide" scheme="https://shenchuanhuan.github.io/blog/tags/Icarus-User-Guide/"/>
     
   </entry>
   
