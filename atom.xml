@@ -6,7 +6,7 @@
   <link href="https://shenchuanhuan.github.io/atom.xml" rel="self"/>
   
   <link href="https://shenchuanhuan.github.io/"/>
-  <updated>2021-01-05T07:50:18.211Z</updated>
+  <updated>2021-01-05T09:06:47.555Z</updated>
   <id>https://shenchuanhuan.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://shenchuanhuan.github.io/%E6%97%A5%E5%B8%B8%E6%8D%A3%E9%BC%93/%E8%AE%B0%E5%BD%95hexo-icarus%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/"/>
     <id>https://shenchuanhuan.github.io/%E6%97%A5%E5%B8%B8%E6%8D%A3%E9%BC%93/%E8%AE%B0%E5%BD%95hexo-icarus%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</id>
     <published>2021-01-05T02:37:05.000Z</published>
-    <updated>2021-01-05T07:50:18.211Z</updated>
+    <updated>2021-01-05T09:06:47.555Z</updated>
     
-    <content type="html"><![CDATA[<p>Q1: 文章配置封面图和缩略图不展示</p><blockquote><p>通过cover和thumbnail可以分别配置封面图和最近文章模块里的缩略图。这两个的值是一个以 <code>/</code> 开头的（绝对路径）图片所在位置路径。<br>不展示是由错误的图片路径设置导致的。正确的图片路径应该是：<code>/img/****</code>，对应到文件夹内，应该是 <code>/public/img</code>文件夹。<br>why: 服务器上部署的博客根目录就是<code>hexo generator</code>生成的<code>public</code>文件夹。也可以直接在浏览器地址栏输入图片路径，通过图片是否能够显示来检测路径是否正确。</p></blockquote><p>Q2: 在博客首页点击某篇文章标题，没有跳转到文章详情页跳转而是下载了该篇文章</p><blockquote><p>这是因为链接地址配置不正确(配置文件：<code>_config.yml</code>)<br>错误的配置: <code>permalink: :category/:post_title</code><br>正确的配置: <code>permalink: :category/:post_title/</code><br>关键点在于有没有最后的<code>/</code><br>为什么是:category、:post_title?这些是hexo里的变量，<a href="https://hexo.io/zh-cn/docs/permalinks">详情看这里</a></p></blockquote><p>Q3: 博客部署到github-pages上样式丢失,但是本地预览样式存在</p><blockquote></blockquote>]]></content>
+    <content type="html"><![CDATA[<p>Q1: 文章配置封面图和缩略图不展示</p><blockquote><p>通过cover和thumbnail可以分别配置封面图和最近文章模块里的缩略图。这两个的值是一个以 <code>/</code> 开头的（绝对路径）图片所在位置路径。<br>不展示是由错误的图片路径设置导致的。正确的图片路径应该是：<code>/img/****</code>，对应到文件夹内，应该是 <code>/public/img</code>文件夹。<br>why: 服务器上部署的博客根目录就是<code>hexo generator</code>生成的<code>public</code>文件夹。也可以直接在浏览器地址栏输入图片路径，通过图片是否能够显示来检测路径是否正确。</p></blockquote><p>Q2: 在博客首页点击某篇文章标题，没有跳转到文章详情页跳转而是下载了该篇文章</p><blockquote><p>这是因为链接地址配置不正确(配置文件：<code>_config.yml</code>)<br>错误的配置: <code>permalink: :category/:post_title</code><br>正确的配置: <code>permalink: :category/:post_title/</code><br>关键点在于有没有最后的<code>/</code><br>为什么是:category、:post_title?这些是hexo里的变量，<a href="https://hexo.io/zh-cn/docs/permalinks">详情看这里</a></p></blockquote><p>Q3: 博客部署到github-pages上样式丢失,但是本地预览样式存在</p><blockquote><p>错误配置URL导致。<br>配置：<code>_config.yml</code>中的url: <code>http(s)://xxxxx.github.io/</code>, root: <code>/blog/</code><br>url：配置部署网站的整个url，如果有二级目录，则root要写二级，比如说我的博客是放在blog下的，博客首页的访问地址是：<code>https://shenchuanhuan.github.io/blog/</code>，那么url可以写 <code>https://shenchuanhuan.github.io/</code> 或者 <code>https://shenchuanhuan.github.io/blog</code>，root则需要配置为 <code>/blog</code></p></blockquote>]]></content>
     
     
       
