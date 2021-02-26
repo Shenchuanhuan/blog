@@ -6,7 +6,7 @@
   <link href="https://shenchuanhuan.github.io/blog/atom.xml" rel="self"/>
   
   <link href="https://shenchuanhuan.github.io/blog/"/>
-  <updated>2021-01-05T11:15:38.440Z</updated>
+  <updated>2021-02-26T09:06:57.485Z</updated>
   <id>https://shenchuanhuan.github.io/blog/</id>
   
   <author>
@@ -15,6 +15,65 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在mac OS/windows/linux操作系统中文件存储计算方式</title>
+    <link href="https://shenchuanhuan.github.io/blog/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E5%9C%A8mac-os-windows-linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B8%AD%E6%96%87%E4%BB%B6%E5%AD%98%E5%82%A8%E8%AE%A1%E7%AE%97%E6%96%B9%E5%BC%8F/"/>
+    <id>https://shenchuanhuan.github.io/blog/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/%E5%9C%A8mac-os-windows-linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B8%AD%E6%96%87%E4%BB%B6%E5%AD%98%E5%82%A8%E8%AE%A1%E7%AE%97%E6%96%B9%E5%BC%8F/</id>
+    <published>2021-02-25T01:43:16.000Z</published>
+    <updated>2021-02-26T09:06:57.485Z</updated>
+    
+    <content type="html"><![CDATA[<p>计算机中用来表示内存储器容量大小的基本单位是：字节（Byte）。字节是二进制数据的单位，是计算机信息技术用于计量存储容量的一种计量单位，也表示一些计算机编辑语言中的数据类型和语言字符。</p><p>在不同的操作系统中，文件数据大小计算规则并不一样，具体如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">windows &#x2F; linux</span><br><span class="line"></span><br><span class="line">1Byte(字节) &#x3D; 8bit(位)</span><br><span class="line">1Kib &#x3D; 1024Byte</span><br><span class="line">1Mib &#x3D; 1024Kib</span><br><span class="line">1Gib &#x3D; 1024Mib</span><br><span class="line">1Tib &#x3D; 1024Gib</span><br><span class="line">——————————————————————————</span><br><span class="line">macOS</span><br><span class="line"></span><br><span class="line">1Byte(字节) &#x3D; 8bit(位)</span><br><span class="line">1Kb &#x3D; 1000Byte</span><br><span class="line">1Mb &#x3D; 1000Kb</span><br><span class="line">1Gb &#x3D; 1000Mb</span><br><span class="line">1Tb &#x3D; 1000Gb</span><br><span class="line"></span><br></pre></td></tr></table></figure><h3 id="为什么它们规则不一样？"><a href="#为什么它们规则不一样？" class="headerlink" title="为什么它们规则不一样？"></a>为什么它们规则不一样？</h3><p>这个要说到国际单位制和硬盘。<br>在国际单位制中是以’1000进制’为标准，为此，IEC（国际电工协会）拟定了’Kib、Mib’的二进制单位，专门用来标志’1024进制’的数据大小<br>硬盘存储也是以’1000进制’为基准的。<br>但是计算机系统是以’1024进制’为基准的。<br>苹果操作系统为了让用户体验更佳（买了1TB硬盘，看到的就是1TB），选择了’1000进制’来处理容量。</p><p>也正是因为这种标杆差异，造成了买回了1TB的硬盘，但在电脑上查看（苹果除外）容量时，发现容量变小了。</p><p>参考资料：</p><ul><li><a href="http://celeron633.blog.sohu.com/263502449.html">这个你肯定不知道：1KB=?byte；1MB=?KB；1GB=?MB</a></li><li><a href="https://www.zhihu.com/question/29131863">Mac OS下储存大小的计算方式是否和Windows下不一样？</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;计算机中用来表示内存储器容量大小的基本单位是：字节（Byte）。字节是二进制数据的单位，是计算机信息技术用于计量存储容量的一种计量单位，也表示一些计算机编辑语言中的数据类型和语言字符。&lt;/p&gt;
+&lt;p&gt;在不同的操作系统中，文件数据大小计算规则并不一样，具体如下：&lt;/p&gt;
+&lt;f</summary>
+      
+    
+    
+    
+    <category term="技术研究" scheme="https://shenchuanhuan.github.io/blog/categories/%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6/"/>
+    
+    
+    <category term="存储计算" scheme="https://shenchuanhuan.github.io/blog/tags/%E5%AD%98%E5%82%A8%E8%AE%A1%E7%AE%97/"/>
+    
+    <category term="文件大小" scheme="https://shenchuanhuan.github.io/blog/tags/%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F/"/>
+    
+    <category term="macOs/windows" scheme="https://shenchuanhuan.github.io/blog/tags/macOs-windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>产品开发后的反思</title>
+    <link href="https://shenchuanhuan.github.io/blog/work/%E4%BA%A7%E5%93%81%E5%BC%80%E5%8F%91%E5%90%8E%E7%9A%84%E5%8F%8D%E6%80%9D/"/>
+    <id>https://shenchuanhuan.github.io/blog/work/%E4%BA%A7%E5%93%81%E5%BC%80%E5%8F%91%E5%90%8E%E7%9A%84%E5%8F%8D%E6%80%9D/</id>
+    <published>2021-01-08T01:37:21.000Z</published>
+    <updated>2021-01-08T02:50:16.659Z</updated>
+    
+    <content type="html"><![CDATA[<p>作为一名程序员，工作的主要内容就是参与产品的开发，具体来说就是</p><p>1.现阶段总是只了解自己被分配的内容需求，对上下游需求不了解，这容易导致开发的东西定制化高、适应场景窄，在开发过程中可能出现，已经开发好的内容不能满足后续操作上对该部分影响的变化，而进行重构或者东补西补，后者在后期维护的时候变得非常困难。<br>2.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;作为一名程序员，工作的主要内容就是参与产品的开发，具体来说就是&lt;/p&gt;
+&lt;p&gt;1.现阶段总是只了解自己被分配的内容需求，对上下游需求不了解，这容易导致开发的东西定制化高、适应场景窄，在开发过程中可能出现，已经开发好的内容不能满足后续操作上对该部分影响的变化，而进行重构或者东</summary>
+      
+    
+    
+    
+    <category term="work" scheme="https://shenchuanhuan.github.io/blog/categories/work/"/>
+    
+    
+    <category term="review" scheme="https://shenchuanhuan.github.io/blog/tags/review/"/>
+    
+    <category term="think" scheme="https://shenchuanhuan.github.io/blog/tags/think/"/>
+    
+    <category term="work" scheme="https://shenchuanhuan.github.io/blog/tags/work/"/>
+    
+  </entry>
   
   <entry>
     <title>记录hexo+icarus主题搭建博客遇到的问题</title>
